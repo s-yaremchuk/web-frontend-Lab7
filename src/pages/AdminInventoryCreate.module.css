@@ -1,0 +1,8 @@
+.section {
+  display: grid;
+  gap: 16px;
+}
+
+.section h2 {
+  margin: 0;
+}
