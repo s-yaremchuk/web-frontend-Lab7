@@ -1,0 +1,36 @@
+.wrapper {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid #e2e8f0;
+  padding: 12px;
+}
+
+.table th {
+  font-size: 0.9rem;
+  color: #334155;
+}
+
+.preview {
+  width: 96px;
+  height: 72px;
+  border-radius: 8px;
+  object-fit: cover;
+  border: 1px solid #e2e8f0;
+  background: #f1f5f9;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
