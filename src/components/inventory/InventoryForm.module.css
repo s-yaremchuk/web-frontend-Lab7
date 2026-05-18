@@ -1,0 +1,21 @@
+.form {
+  display: grid;
+  gap: 20px;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.previewBox {
+  display: grid;
+  gap: 8px;
+}
+
+.previewBox img {
+  width: min(360px, 100%);
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+}
